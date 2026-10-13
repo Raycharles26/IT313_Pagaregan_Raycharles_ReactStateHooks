@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { View, Text, Button, StyleSheet, ScrollView } from "react-native";
+import { useEffect, useState } from "react";
+import { Button, ScrollView, StyleSheet, Text, View } from "react-native";
 
 // CUSTOM HOOK: Stopwatch timer
 function useStopwatch(isRunning: boolean): number {
